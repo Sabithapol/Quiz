@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/Sabithapol/QuizJune29/issues"
   },
-  "homepage": "https://github.com/Sabithapol/QuizJune29#readme"
+  "homepage": "https://github.com/Sabithapol/QuizJune29#readme",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "method-override": "^3.0.0",
+    "pg": "^8.2.1"
+  }
 }
