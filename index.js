@@ -3,12 +3,14 @@ const logger = require("morgan");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const methodOverride = require("method-override");
+const morgan = require("morgan");
 
 const app = express();
 
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 app.use(logger("dev"));
+app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
@@ -21,7 +23,6 @@ app.use(
     }
   })
 );
-
 const baseRouter=require("./routes/baseRouter")
 app.use("/",baseRouter)
 

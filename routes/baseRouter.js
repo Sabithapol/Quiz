@@ -3,7 +3,8 @@ const { response } = require("express");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.render("home");
+  console.log("requestparams>>>", req.query)
+  res.cookie("username",req.query.Username).render("home");
 });
 
 //router.get("/")
