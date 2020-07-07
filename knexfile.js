@@ -4,7 +4,7 @@ module.exports = {
   development: {
     client: "pg",
     connection: {
-      database: "dbquiz",
+      database: "cluckr",
       // username: 'your postgres username'
       // password: 'your username password'
     },

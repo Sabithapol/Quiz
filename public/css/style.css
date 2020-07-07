@@ -9,22 +9,39 @@
 
 .username{
     width: 300px;
-    box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+    height: 50px;
+    border: groove;
     background: #fff;
-    padding: 8px -1 8px 8px;
     margin: 8% auto 0;
+    padding: 0.5em;
 }
 body{
-    width: 300px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    width: 350px;
+    height:500px;
     background: #fff;
-    padding: 20px;
-    margin: 8% auto 0;
-    text-align: center;
+    /* margin: 8% auto 0; */
+    border: groove;
+    padding: 0.5em;
 }
 .legend{
     float:left;
 }
+.toppart{
+    padding: 0.8em;
+}
+.legend{
+    float: left;
+    color: gray;
+    align-items: flex-start;
+}
+.signin{
+    align-items: flex-end;
+    color: gray;
+}
 .entername{
-    
+text-align: center;
+align-items: center;
+}
+.container{
+    display: flexbox;
 }
