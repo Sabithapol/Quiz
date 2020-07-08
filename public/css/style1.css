@@ -1,0 +1,64 @@
+.logo{
+    float:left;
+    position: relative;
+}
+
+.top-right{
+    float: right;
+}
+
+.username{
+    width: 300px;
+    height: 50px;
+    border: groove;
+    background: #fff;
+    margin: 8% auto 0;
+    padding: 0.5em;
+}
+body{
+    width: 350px;
+    height:500px;
+    background: #fff;
+    /* margin: 8% auto 0; */
+    border: groove;
+    padding: 0.5em;
+}
+.legend{
+    float:left;
+}
+.toppart{
+    padding: 0.8em;
+}
+.legend{
+    float: left;
+    color: gray;
+    align-items: flex-start;
+}
+.contents{
+    align-items: flex-end;
+    color: gray;
+    height: 50px;
+    width: 250px;
+    padding: 1.5em;
+}
+.entername{
+text-align: center;
+align-items: center;
+}
+
+.imageurl{
+    align-items: flex-end;
+    color: gray;
+    height: 50px;
+    width: 280px;
+    padding: 0.5em;
+}
+.secondpage{
+    border: groove;
+    padding: 0.5em;
+    height: 350px;
+}
+.cluckbutton{
+    position: absolute;
+    bottom: 40%;
+}
