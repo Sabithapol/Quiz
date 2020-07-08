@@ -1,4 +1,4 @@
-.logo{
+/* .logo{
     float:left;
     position: relative;
 }
@@ -19,12 +19,9 @@ body{
     width: 350px;
     height:500px;
     background: #fff;
-    /* margin: 8% auto 0; */
+    /* margin: 8% auto 0; 
     border: groove;
-    padding: 0.5em;
-}
-.legend{
-    float:left;
+    padding: 0.5em; 
 }
 .toppart{
     padding: 0.8em;
@@ -62,3 +59,6 @@ align-items: center;
     position: absolute;
     bottom: 40%;
 }
+.signin{
+    float: right;
+}*/

@@ -45,3 +45,34 @@ align-items: center;
 .container{
     display: flexbox;
 }
+contents{
+    align-items: flex-end;
+    color: gray;
+    height: 50px;
+    width: 250px;
+    padding: 1.5em;
+}
+.entername{
+text-align: center;
+align-items: center;
+}
+
+.imageurl{
+    align-items: flex-end;
+    color: gray;
+    height: 50px;
+    width: 280px;
+    padding: 0.5em;
+}
+.secondpage{
+    border: groove;
+    padding: 0.5em;
+    height: 350px;
+}
+.cluckbutton{
+    position: absolute;
+    bottom: 40%;
+}
+.signin{
+    float: right;
+}

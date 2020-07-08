@@ -7,5 +7,20 @@ router.get("/", (req, res) => {
   res.cookie("username",req.query.Username).render("home");
 });
 
-//router.get("/")
+const MAX_COOKIE_AGE = 1000 * 60 * 60 * 24 * 7;
+router.post("/signin", (req, res) => {
+  const params = req.body; // { username: 'username passed' }
+  res.cookie("username", params.username, { maxAge: MAX_COOKIE_AGE });
+  res.redirect("/");
+});
+router.get("/signin",(req,res)=>{
+  res.render("signin")
+})
+
+
+router.post("/sign_out", (req, res) => {
+  res.clearCookie("username");
+  res.redirect("/");
+});
 module.exports = router;
+
