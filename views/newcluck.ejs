@@ -1,16 +1,28 @@
-       <section class="toppart">
+<%- include("./partials/header.ejs") %> 
+     <section class="page2">
+       <div class="toppart">
            <img class="logo" src="/images/chickenlogo.jpg" alt="logo" height="50" width="50">
-       </section>
-       <hr>
+           <br>
+           <button>Cluck!</button>
+           <button>Cluck_master</button>
+           <button>Sign Out</button>
+       </div>
+     
        <div class="container1">
-       <form>
+        <form action="/Cluck" method="GET"> 
            <div class="secondpage">
            <legend class="legend">Content</legend>
            <input class="contents" type="text" name="content" placeholder="whatchoo cluckin' 'about?">
            <br>
            <br>
+           <label class="colorimage" for="image"> Image URL</label>
            <input class="imageurl" type="text" name="image" placeholder="http://i.immm.gifv" >
-           <button class="cluckbutton">Cluck!</button>
+           <input class="cluckbutton" type="submit" value="Cluck"></button>
+        </div>
        </form>
-       </div>
+       
    </div>
+</section> 
+<%- include("./partials/footer.ejs") %> 
+
+

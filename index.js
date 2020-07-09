@@ -24,7 +24,9 @@ app.use(
   })
 );
 const baseRouter=require("./routes/baseRouter")
+const clucksrouter=require("./routes/clucksrouter")
 app.use("/",baseRouter)
+app.use("/clucks",clucksrouter)
 
 const PORT = 4000;
 const ADDRESS = "localhost";

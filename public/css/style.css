@@ -23,9 +23,6 @@ body{
     border: groove;
     padding: 0.5em;
 }
-.legend{
-    float:left;
-}
 .toppart{
     padding: 0.8em;
 }
@@ -42,14 +39,12 @@ body{
 text-align: center;
 align-items: center;
 }
-.container{
-    display: flexbox;
-}
-contents{
+
+.contents{
     align-items: flex-end;
     color: gray;
-    height: 50px;
-    width: 250px;
+    height: 200px;
+    width: 230px;
     padding: 1.5em;
 }
 .entername{
@@ -60,19 +55,22 @@ align-items: center;
 .imageurl{
     align-items: flex-end;
     color: gray;
-    height: 50px;
-    width: 280px;
+    height: 10px;
+    width: 250px;
     padding: 0.5em;
 }
 .secondpage{
     border: groove;
     padding: 0.5em;
-    height: 350px;
+    height: 400px;
 }
 .cluckbutton{
     position: absolute;
-    bottom: 40%;
+    bottom: 53%;
 }
 .signin{
     float: right;
+}
+.colorimage{
+    color: gray;
 }
